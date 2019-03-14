@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title><%= htmlWebpackPlugin.options.title %></title>
+<link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.main.css %>">
+
+<!-- Web App -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable"       content="yes" />
+<meta name="apple-mobile-web-app-title"   content="<%= htmlWebpackPlugin.options.title %>">
+<meta name="application-name"             content="<%= htmlWebpackPlugin.options.title %>">
+<meta name="msapplication-TileColor"      content="#434b7e" />
+<meta name="theme-color"                  content="#434b7e" />
+<!-- END: Web App -->
+
+<!-- UA and Viewport -->
+<meta http-equiv="X-UA-Compatible" content="Chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<!-- END: UA and Viewport -->
+</head>
+<body>
+
+<header>
+  <div class="master-container non-limited">
+    <div class="master-container-padding">
+      <div class="row middle-xs">
+        <div class="col-xs-9">
+          <div class="header--search-container">
+            <form action="">
+              <button type="submit" class="header--search-button"> <i class="fas fa-search"></i> </button>
+              <input type="search" name="search" placeholder="Search" class="header--search-input">
+            </form>
+          </div>
+        </div>
+
+        <div class="col-xs-2 center-xs header--buttons-container">
+          <a href="#top-button-1" class="header--main-button hmb-light"></a>
+          <a href="#top-button-2" class="header--main-button hmb-medium"></a>
+        </div>
+
+        <div class="col-xs-1 center-xs header--profile-button-container">
+          <a href="#profile" class="header--profile-button"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<aside>
+  <nav>
+    <ul>
+      <a href="#one">
+        <li>
+          <i class="fas fa-list-ul">
+            <div class="nav--notification-container">
+              <div class="nav--notification-counter">
+                <p></p>
+              </div>
+            </div>
+          </i>
+          <p>One</p>
+        </li>
+      </a>
+
+      <a href="#two" class="active">
+        <li>
+          <i class="fas fa-car">
+            <div class="nav--notification-container">
+              <div class="nav--notification-counter">
+                <p>23</p>
+              </div>
+            </div>
+          </i>
+          <p>Two</p>
+        </li>
+      </a>
+
+      <a href="#three">
+        <li>
+          <i class="fas fa-users">
+            <div class="nav--notification-container">
+              <div class="nav--notification-counter">
+                <p></p>
+              </div>
+            </div>
+          </i>
+          <p>Three</p>
+        </li>
+      </a>
+
+      <a href="#four">
+        <li>
+          <i class="fas fa-fire">
+            <div class="nav--notification-container">
+              <div class="nav--notification-counter">
+                <p></p>
+              </div>
+            </div>
+          </i>
+          <p>Four</p>
+        </li>
+      </a>
+    </ul>
+
+    <div class="nav--sign-out-container">
+      <a href="#logout">
+        <i class="fas fa-sign-out-alt"></i>
+      </a>
+    </div>
+  </nav>
+</aside>
+
+<main>
+  <div class="master-container non-limited">
+    <div class="master-container-padding">
+      <div class="row main--container">
+        <div class="col-xs-8">
+          <div class="main--container-wrapper">
+            <div class="main--container-content">
+              <div class="row">
+                <div class="col-container">
+                  <a href="#">
+                    <div class="main--card-container">
+                      <div class="main--card-header-container">
+                        <div class="main--card-header-wrapper">
+                          <div class="main--card-header-text">
+                            <h1>The Agent before Agent, a lost Rockstar San Diego project</h1>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="main--card-description-container">
+                        <div class="main--card-description-wrapper">
+                          <p>“For more than a decade, Rockstar Games have been delivering unrivaled interactive experiences to fans all over the world”</p>
+                        </div>
+
+                        <div class="main--card-description-ribbon ribbon-red">
+                          <p>Five</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-container">
+                  <a href="#">
+                    <div class="main--card-container">
+                      <div class="main--card-header-container">
+                        <div class="main--card-header-wrapper image-background"></div>
+                      </div>
+                      <div class="main--card-description-container">
+                        <div class="main--card-description-wrapper">
+                          <p>BioWare now takes its shot at a cooperative multiplayer action game, promising a changing world that will entertain players for hundreds of...</p>
+                        </div>
+
+                        <div class="main--card-description-ribbon ribbon-green">
+                          <p>Six</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-container">
+                  <a href="#">
+                    <div class="main--card-container">
+                      <div class="main--card-header-container">
+                        <div class="main--card-header-wrapper"></div>
+                      </div>
+                      <div class="main--card-description-container">
+                        <div class="main--card-description-wrapper"></div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-container">
+                  <a href="#">
+                    <div class="main--card-container">
+                      <div class="main--card-header-container">
+                        <div class="main--card-header-wrapper"></div>
+                      </div>
+                      <div class="main--card-description-container">
+                        <div class="main--card-description-wrapper"></div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-container">
+                  <a href="#">
+                    <div class="main--card-container">
+                      <div class="main--card-header-container">
+                        <div class="main--card-header-wrapper"></div>
+                      </div>
+                      <div class="main--card-description-container">
+                        <div class="main--card-description-wrapper"></div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4">
+          <div class="main--container-wrapper">
+            <div class="main--container-content">
+              <!-- Nothing goes in here! -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

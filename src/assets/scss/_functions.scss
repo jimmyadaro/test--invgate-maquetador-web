@@ -1,0 +1,17 @@
+@mixin margin_block($size) {
+	.margin-#{$size}px {
+		display:block;
+		background:transparent;
+	  height:#{$size}px;
+		padding:0px;
+		margin:0px;
+	}
+}
+
+@mixin add_transition($duration,$type) {
+	transition: $duration $type;
+	-moz-transition: $duration $type;
+	-ms-transition: $duration $type;
+	-o-transition: $duration $type;
+	-webkit-transition: $duration $type;
+}
