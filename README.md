@@ -1,8 +1,11 @@
 # HTML/CSS User Test
 
-El objetivo de este ejercicio es poder comprobar el nivel de conocimiento sobre lamateria y poder observar la forma en que se trabajan ciertas problemáticas.
+El objetivo de este ejercicio es poder comprobar el nivel de conocimiento sobre la
+materia y poder observar la forma en que se trabajan ciertas problemáticas.
 
-Se debe maquetar correctamente la pieza brindada en PNG y PSD. Se brinda el original por si el usuario lo considera útil para su trabajo.
+
+Se debe maquetar correctamente la pieza brindada en PNG y PSD. Se brinda el
+ original por si el usuario lo considera útil para su trabajo.
 
 ### A tener en cuenta:
 
@@ -23,30 +26,29 @@ El objetivo de este ejercicio es poder comprobar el nivel de conocimiento sobre 
 
 Since I'm currently (_March 2019_) **learning Webpack** and bundling in general, I decided to do this **one-page front-end technical test** using it. It uses HTML, CSS/SASS and Vanilla JavaScript as main languages.
 
-## Expected frontend:
+### Expected frontend:
 
-![](./src/assets/img/markdown/CSS Test@2x.png)
+![Expected frontend](src/assets/img/markdown/CSS Test@2x.png)
 
 ###### Image provided by _InvGate®_.
 
 ---
 
-# Check out the final project:
+# Check out the final project
 
-## a. Open HTML file
+### a. Open HTML file
 
 You can simply open the `/dist/index.html` file and that will do the job!
 
-## b. Run _Webpack Dev Server_ (WDS):
+### b. Run _Webpack Dev Server_ (WDS):
 
 ```bash
 # Install dependencies
-$ cd path/to/test--invgate-maquetador-web-master && npm install
-# Run WDS and open page on default browser
+$ cd your/path/to/test--invgate-maquetador-web-master && npm install
+# Run WDS on "localhost:9000" and open the index on your default browser
 $ npm run dev
 # OR
-# Run WDS on port 0.0.0.0 and open page on default browser
-# Port can be modified in "package.json" under:
-# scripts.local "--host 0.0.0.0"
+# Run WDS on host "0.0.0.0:9000" and open the index on your default browser
+# Host and port can be modified in "package.json" under "scripts.local"
 $ npm run local
 ```
