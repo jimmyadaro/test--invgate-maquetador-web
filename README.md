@@ -28,7 +28,7 @@ Since I'm currently (_March 2019_) **learning Webpack** and bundling in general,
 
 ### Expected frontend:
 
-![Expected frontend](src/assets/img/markdown/CSS Test@2x.png)
+![Expected frontend](https://raw.githubusercontent.com/jimmyadaro/test--invgate-maquetador-web/master/src/assets/img/markdown/CSS%20Test%402x.png)
 
 ###### Image provided by _InvGate®_.
 
