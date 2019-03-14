@@ -38,9 +38,15 @@ Since I'm currently (_March 2019_) **learning Webpack** and bundling in general,
 
 ### a. Open HTML file
 
-You can simply open the `/dist/index.html` file and that will do the job!
+You can simply open the `/dist/index.html` file on your local copy and that will do the job!
 
-### b. Run _Webpack Dev Server_ (WDS):
+### b. GitHub Pages
+
+This project is available **online** right here: https://jimmyadaro.github.io/test--invgate-maquetador-web/
+
+### c. Run _Webpack Dev Server_ (WDS):
+
+If you have the whole repo cloned, just:
 
 ```bash
 # Install dependencies
